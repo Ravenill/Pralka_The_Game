@@ -1,44 +1,121 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Game">
-      <UniqueIdentifier>{de6d5646-7d84-44d0-96bf-abb55593926b}</UniqueIdentifier>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4bdbf360-ccb4-440e-b722-9643597b74e9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Game\Main">
-      <UniqueIdentifier>{7ad198ef-219a-4c84-bfa5-2b37b626b38c}</UniqueIdentifier>
+    <Filter Include="Source\Game">
+      <UniqueIdentifier>{23e78f4e-14a2-4322-916b-708c7846554e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Game\Player">
-      <UniqueIdentifier>{f8989d3f-9d17-4591-95eb-3d5e4cfed977}</UniqueIdentifier>
+    <Filter Include="Source\Game\Windows">
+      <UniqueIdentifier>{1d87def5-cfb5-4aa0-9c79-85c7e5c9f5be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Parser">
+      <UniqueIdentifier>{ca5eec44-fa68-4d17-97ad-453c9d9ced49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Player">
+      <UniqueIdentifier>{f2447b5b-d306-4563-946b-c151920afa85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Backstage">
+      <UniqueIdentifier>{cdf477bf-402f-45f8-829a-3a151fb9b3b4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Source\Game</Filter>
+    </ClCompile>
     <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="Game.cpp">
-      <Filter>Source Files\Game\Main</Filter>
+    <ClCompile Include="Game\Parser\Scene.cpp">
+      <Filter>Source\Game\Parser</Filter>
     </ClCompile>
-    <ClCompile Include="Window.cpp">
-      <Filter>Source Files\Game\Main</Filter>
+    <ClCompile Include="Game\Windows\Window.cpp">
+      <Filter>Source\Game\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Windows\WindowEnemy.cpp">
+      <Filter>Source\Game\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Windows\WindowEq.cpp">
+      <Filter>Source\Game\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Windows\WindowMain.cpp">
+      <Filter>Source\Game\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Windows\WindowPlayer.cpp">
+      <Filter>Source\Game\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Windows\WindowsManager.cpp">
+      <Filter>Source\Game\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Backstage\Blackboard.cpp">
+      <Filter>Source\Backstage</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\Enemy.cpp">
+      <Filter>Source\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\Player.cpp">
+      <Filter>Source\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\Humanoid.cpp">
+      <Filter>Source\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Backstage\Tools.cpp">
+      <Filter>Source\Backstage</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\Eq.cpp">
+      <Filter>Source\Game\Player</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Game.h">
-      <Filter>Source Files\Game\Main</Filter>
+    <ClInclude Include="Game\Game.h">
+      <Filter>Source\Game</Filter>
     </ClInclude>
-    <ClInclude Include="Window.h">
-      <Filter>Source Files\Game\Main</Filter>
+    <ClInclude Include="Game\Parser\Scene.h">
+      <Filter>Source\Game\Parser</Filter>
     </ClInclude>
-    <ClInclude Include="Humanoid.h">
-      <Filter>Source Files\Game\Player</Filter>
+    <ClInclude Include="Game\Windows\Window.h">
+      <Filter>Source\Game\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Windows\WindowEnemy.h">
+      <Filter>Source\Game\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Windows\WindowEq.h">
+      <Filter>Source\Game\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Windows\WindowMain.h">
+      <Filter>Source\Game\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Windows\WindowPlayer.h">
+      <Filter>Source\Game\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Windows\WindowsManager.h">
+      <Filter>Source\Game\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Backstage\Blackboard.h">
+      <Filter>Source\Backstage</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\Enemy.h">
+      <Filter>Source\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\Player.h">
+      <Filter>Source\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\Humanoid.h">
+      <Filter>Source\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Backstage\Enum.h">
+      <Filter>Source\Backstage</Filter>
+    </ClInclude>
+    <ClInclude Include="Backstage\Tools.h">
+      <Filter>Source\Backstage</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\Eq.h">
+      <Filter>Source\Game\Player</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

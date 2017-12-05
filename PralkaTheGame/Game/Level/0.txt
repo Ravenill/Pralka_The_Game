@@ -1,0 +1,9 @@
+Dobrze wiem, ¿e od zawsze chcia³eœ kupiæ sobie pralkê... Kilknij w przycisk, by odebraæ darmowy egzemplarz.
+1.txt
+Pralka Frania
+1.txt
+Pralka Wiesia
+1.txt
+Pralka Halinka
+NULL
+NULL
